@@ -1,25 +1,25 @@
 class Fishtanks < Formula
   desc "An aquarium for your terminal: ASCII fishes, fishing, a shop, mutations, heaven, hell and computers made of fish."
   homepage "https://retam.al/fishtanks"
-  version "1.0.3"
+  version "1.0.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.0.3/fishtanks-aarch64-apple-darwin.tar.xz"
-      sha256 "e360c50291fe34c7a115a92711fc155ecfa8ec802148d95da3bf94109d110091"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.0.4/fishtanks-aarch64-apple-darwin.tar.xz"
+      sha256 "b0b3e8def9a8a9ac234f0eecfa60bcfd7f6352208c2f638129352c4f665f2946"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.0.3/fishtanks-x86_64-apple-darwin.tar.xz"
-      sha256 "f08b263c59196c02157e164d4a8d1090baa1623957d6a0beae938652054622ff"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.0.4/fishtanks-x86_64-apple-darwin.tar.xz"
+      sha256 "4789f2948245fcebab8dce27ebafe6321bd8eaac17693f8f41af3b6758d8027b"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.0.3/fishtanks-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "b400b7aedfa4064558587c0490016638bdfbd3df9e21d1aa5f6cebc67e2500a3"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.0.4/fishtanks-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "ec0ce3b546655c52dff9b3e5558055e52fda7082e00a3083d3831e3dae14f7d0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.0.3/fishtanks-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "b5ad3bde8bca13ad246f355beea22b6625a505416474ef1bf493a472de70aa3b"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.0.4/fishtanks-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "e48116137113d271b3cbf66dffc256fd41bba2b6063cd5cabeb4a971335531c1"
     end
   end
   license "MIT"
