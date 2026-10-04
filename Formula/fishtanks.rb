@@ -1,25 +1,25 @@
 class Fishtanks < Formula
   desc "An aquarium for your terminal: ASCII fishes, fishing, a shop, mutations, heaven, hell and computers made of fish."
   homepage "https://retam.al/fishtanks"
-  version "1.2.0"
+  version "1.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.2.0/fishtanks-aarch64-apple-darwin.tar.xz"
-      sha256 "276dc82b1c123d74a8113070f87faa96ddb12df641dc8484140511d1ee2f2b28"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.2.1/fishtanks-aarch64-apple-darwin.tar.xz"
+      sha256 "a69d7492a898a5d99e12cca85675124bfb60b82a19bd97d5e2eb4daf13e9622a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.2.0/fishtanks-x86_64-apple-darwin.tar.xz"
-      sha256 "a5f9c47b5afe02241e4f811394773d612159a84b3dddf77214dbf584f513f7ce"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.2.1/fishtanks-x86_64-apple-darwin.tar.xz"
+      sha256 "0fd79901740a55c4ff65d03684b713ec288b51420c58ef19dd0dc9bb7676dd94"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.2.0/fishtanks-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "1d25d08602498cc23a397fb0f3122f801849a22d7361b670e1b78a53de396f22"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.2.1/fishtanks-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "b83cd39188be22a4d4c0d20d80866338c2c7e2f5d55717bed8ba03b9fb2a4e9d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.2.0/fishtanks-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "9c84119e176cdab0e2a8d009a6aa871f9a172e815b7f8f2c7b13af12dd9c26e1"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.2.1/fishtanks-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "d2a6e64f1b7ddf9521e319d39a93df74d686336f27519870e16a7afd54a96c3e"
     end
   end
   license "MIT"
