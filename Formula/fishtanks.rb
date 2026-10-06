@@ -1,25 +1,25 @@
 class Fishtanks < Formula
   desc "An aquarium for your terminal: ASCII fishes, fishing, a shop, mutations, heaven, hell and computers made of fish."
   homepage "https://retam.al/fishtanks"
-  version "1.2.1"
+  version "1.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.2.1/fishtanks-aarch64-apple-darwin.tar.xz"
-      sha256 "a69d7492a898a5d99e12cca85675124bfb60b82a19bd97d5e2eb4daf13e9622a"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.3.0/fishtanks-aarch64-apple-darwin.tar.xz"
+      sha256 "c9e3ac6ecc39280e4c4f40d9294b66647f70e85be13365e23a496eeb031de333"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.2.1/fishtanks-x86_64-apple-darwin.tar.xz"
-      sha256 "0fd79901740a55c4ff65d03684b713ec288b51420c58ef19dd0dc9bb7676dd94"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.3.0/fishtanks-x86_64-apple-darwin.tar.xz"
+      sha256 "1e32c41531db46fb76f3fe0ac8f9cf24f83990077f6391bdb6627cb55fe908f7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.2.1/fishtanks-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "b83cd39188be22a4d4c0d20d80866338c2c7e2f5d55717bed8ba03b9fb2a4e9d"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.3.0/fishtanks-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "c7a7bf5aa360ecd0f2651bf4a268911e204ffd5a25f539e37275c06f5a5b2715"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.2.1/fishtanks-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "d2a6e64f1b7ddf9521e319d39a93df74d686336f27519870e16a7afd54a96c3e"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.3.0/fishtanks-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "d88590dff48e98b733788b10f911745af0f7414e47ca21c0c362809c4e1c8f1f"
     end
   end
   license "MIT"
