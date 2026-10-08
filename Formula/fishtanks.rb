@@ -1,25 +1,25 @@
 class Fishtanks < Formula
   desc "An aquarium for your terminal: ASCII fishes, fishing, a shop, mutations, heaven, hell and computers made of fish."
   homepage "https://retam.al/fishtanks"
-  version "1.4.0"
+  version "1.5.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.4.0/fishtanks-aarch64-apple-darwin.tar.xz"
-      sha256 "26b9a2ce92b4c298efbb2676ad139062554ee7b12d1258fcac0c375cf2e03849"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.5.0/fishtanks-aarch64-apple-darwin.tar.xz"
+      sha256 "8e414fef3e8b419b9b15a5d8327c405ed41841e39e37abf396c1520c928a6cea"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.4.0/fishtanks-x86_64-apple-darwin.tar.xz"
-      sha256 "7bb5052045f486215ee8892ecd5344f921c3a80cf73fc835883d7d2217255fe0"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.5.0/fishtanks-x86_64-apple-darwin.tar.xz"
+      sha256 "77e7cc379dccd13448979502fb61eba07ea6945d45e7ad7f2a9512ba9755a7c6"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.4.0/fishtanks-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "d82c728844a2bdb3c3b8b6cf94bcc9e8e9fa847bc518e3359abddae2c88ab50d"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.5.0/fishtanks-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "55a830085190a6537f3e739923532e526ced4d3be9dc67efc4646a930d39095a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.4.0/fishtanks-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "b5517f38ff355eeb359f71d6376be1eec2f363bb1e0d6d445518e95aef3e25ec"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.5.0/fishtanks-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "9297243ea4012fe5312f315a3daddc0e1c34789718114440f238777cb3251bf2"
     end
   end
   license "MIT"
