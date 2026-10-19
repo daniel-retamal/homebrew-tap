@@ -1,25 +1,25 @@
 class Fishtanks < Formula
   desc "An aquarium for your terminal: ASCII fishes, fishing, a shop, mutations, heaven, hell and computers made of fish."
   homepage "https://retam.al/fishtanks"
-  version "1.6.0"
+  version "1.6.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.0/fishtanks-aarch64-apple-darwin.tar.xz"
-      sha256 "9647cc0ff48f3b53342728c1f7d8457aaa6246f5e7c6dc2601c9c1e53a0f7a3c"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.1/fishtanks-aarch64-apple-darwin.tar.xz"
+      sha256 "400c0a0e4218bc572e9267901e1a5c44f114307fe6cd6cf1dfa4cdf8e20d6328"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.0/fishtanks-x86_64-apple-darwin.tar.xz"
-      sha256 "2e3bd9af30fbec662b637e38541f25154113b8610372ca4ba6aff62c7d3e393e"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.1/fishtanks-x86_64-apple-darwin.tar.xz"
+      sha256 "9126537f6be0c54a9eea2f8d004aa173fd1fc86ec5544a4fc98d521be9a696f8"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.0/fishtanks-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "5160cfc0d9e954f2ae6ec194055a8f7694487f14ae9e9f5883c7a54ffa5a306b"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.1/fishtanks-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "9ef408f0c5711131dd1fc5b766e510b6b712f8e176e245c0b59fce09cce5a98f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.0/fishtanks-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "2c4bfe7ba79338a81e3d39b1449dff71d81c8ed43e4ebed1dcc629c94e6a40b0"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.1/fishtanks-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "d76d2887d7234f60649838941e8e3fe872ab0b830d699a126af94d9a254e37be"
     end
   end
   license "MIT"
