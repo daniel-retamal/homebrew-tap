@@ -1,25 +1,25 @@
 class Fishtanks < Formula
   desc "An aquarium for your terminal: ASCII fishes, fishing, a shop, mutations, heaven, hell and computers made of fish."
   homepage "https://retam.al/fishtanks"
-  version "1.6.1"
+  version "1.6.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.1/fishtanks-aarch64-apple-darwin.tar.xz"
-      sha256 "400c0a0e4218bc572e9267901e1a5c44f114307fe6cd6cf1dfa4cdf8e20d6328"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.2/fishtanks-aarch64-apple-darwin.tar.xz"
+      sha256 "ca6ceebe3b4e7bd24e1a46452b869631db5a27039f610ce5008e3706975357e6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.1/fishtanks-x86_64-apple-darwin.tar.xz"
-      sha256 "9126537f6be0c54a9eea2f8d004aa173fd1fc86ec5544a4fc98d521be9a696f8"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.2/fishtanks-x86_64-apple-darwin.tar.xz"
+      sha256 "f919c86374e75fee36942693770cb5bc1ec5253a4e5a94d624a2bd5a1be655c5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.1/fishtanks-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "9ef408f0c5711131dd1fc5b766e510b6b712f8e176e245c0b59fce09cce5a98f"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.2/fishtanks-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "c68fc744fcbe79759b182c0fb2bff1502e0a87f1dbb1d3bdf7409c8d8362c8e4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.1/fishtanks-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "d76d2887d7234f60649838941e8e3fe872ab0b830d699a126af94d9a254e37be"
+      url "https://github.com/daniel-retamal/fishtanks/releases/download/v1.6.2/fishtanks-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "ca39a860d57fe82f1bed9ed45520debed62d7931ace2b5ed78506efa7d6cf918"
     end
   end
   license "MIT"
